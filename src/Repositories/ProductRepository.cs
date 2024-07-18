@@ -16,8 +16,8 @@ public sealed class ProductRepository
 
   private ProductRepository()
   {
-    this._products.Add(new Product("1", "food", "pancake", "1.0.0"));
-    this._products.Add(new Product("2", "food", "sanwhich", "1.0.0"));
+    this._products.Add(new Product("1", "food", "pancake", "1.0.0", "beige"));
+    this._products.Add(new Product("2", "food", "sanwhich", "1.0.0", "pink"));
   }
 
   public static ProductRepository GetInstance()
