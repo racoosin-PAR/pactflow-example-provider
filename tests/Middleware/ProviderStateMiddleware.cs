@@ -37,8 +37,8 @@ public class ProviderStateMiddleware
 
     private void AddData()
     {
-        _Repository.AddProduct(new Product("1", "food", "pancake", "1.0.0"));
-        _Repository.AddProduct(new Product("2", "food", "sanwhich", "1.0.0"));
+        _Repository.AddProduct(new Product("1", "food", "pancake", "1.0.0", "beige"));
+        _Repository.AddProduct(new Product("2", "food", "sanwhich", "1.0.0", "pink"));
     }
 
     private void RemoveAllData()
